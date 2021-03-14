@@ -1,1 +1,1 @@
-#pradnesh8.surge.sh
+http://pradnesh8.surge.sh/
