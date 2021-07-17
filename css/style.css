@@ -58,7 +58,7 @@ main {
     background: white;
     background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
     /* height: 570px; */
-    min-height: 80vh;
+    min-height: 90vh;
     width: 66%;
     border-radius: 2rem;
     backdrop-filter: blur(2rem);
@@ -150,7 +150,8 @@ main {
 @keyframes sidebar-animation {
     from {
         background: #ffffff;
-        margin-right: 5rem;
+        /* margin-right: 5rem; */
+        opacity: 0.5;
     }
     to {
         background: linear-gradient(to right bottom, rgba(255,255,255,0.5), rgba(255,255,255,0.2));
@@ -189,7 +190,7 @@ main {
 }
 @keyframes profile-animation {
     from {
-        margin: 5rem;
+        /* margin: 5rem; */
         opacity: 0.5;
     }
     to {
@@ -244,8 +245,8 @@ main {
 @keyframes project-animation {
     from {
         opacity: 0.5;
-        margin-left: 3rem;
-        margin-right: 3rem;
+        /* margin-left: 3rem; */
+        /* margin-right: 3rem; */
     }
     to {
         background: linear-gradient(to left top, rgba(255,255,255,1), rgba(255,255,255,0.7));
@@ -497,7 +498,7 @@ a {
 }
 @keyframes contact-animation {
     from {
-        margin: 5rem;
+        /* margin: 5rem; */
         opacity: 0.5;
     }
     to {
@@ -543,7 +544,7 @@ a {
 }
 @keyframes resume-animation {
     from {
-        margin: 5rem;
+        /* margin: 5rem; */
         opacity: 0.5;
     }
     to {
